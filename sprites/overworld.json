@@ -1,0 +1,193 @@
+{
+    "imageURL": "/img/tileset.png",
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "tiles": [
+        {
+            "name": "ground-block",
+            "index": [0, 0]
+        },
+        {
+            "name": "sky",
+            "index": [3, 23]
+        },
+        {
+            "name": "metal-block",
+            "index": [0, 1]
+        },
+        {
+            "name": "brick-block",
+            "index": [1, 0]
+        },
+        {
+            "name": "?-block-1",
+            "index": [24, 0]
+        },
+        {
+            "name": "?-block-2",
+            "index": [25, 0]
+        },
+        {
+            "name": "?-block-3",
+            "index": [26, 0]
+        },
+        {
+            "name": "pipe-insert-vert-left",
+            "index": [0, 8]
+        },
+        {
+            "name": "pipe-insert-vert-right",
+            "index": [1, 8]
+        },
+        {
+            "name": "pipe-vert-left",
+            "index": [0, 9]
+        },
+        {
+            "name": "pipe-vert-right",
+            "index": [1, 9]
+        },
+        {
+            "name": "cannon-1",
+            "index": [9, 0]
+        },
+        {
+            "name": "cannon-2",
+            "index": [8, 1]
+        },
+        {
+            "name": "cannon-3",
+            "index": [9, 1]
+        },
+        {
+            "name": "cloud-1",
+            "index": [0, 20]
+        },
+        {
+            "name": "cloud-2",
+            "index": [1, 20]
+        },
+        {
+            "name": "cloud-3",
+            "index": [2, 20]
+        },
+        {
+            "name": "cloud-4",
+            "index": [0, 21]
+        },
+        {
+            "name": "cloud-5",
+            "index": [1, 21]
+        },
+        {
+            "name": "cloud-6",
+            "index": [2, 21]
+        },
+        {
+            "name": "bush-1",
+            "index": [11, 9]
+        },
+        {
+            "name": "bush-2",
+            "index": [12, 9]
+        },
+        {
+            "name": "bush-3",
+            "index": [13, 9]
+        },
+        {
+            "name": "hill-1",
+            "index": [8, 8]
+        },
+        {
+            "name": "hill-2",
+            "index": [9, 8]
+        },
+        {
+            "name": "hill-3",
+            "index": [10, 8]
+        },
+        {
+            "name": "hill-4",
+            "index": [8, 9]
+        },
+        {
+            "name": "hill-5",
+            "index": [9, 9]
+        },
+        {
+            "name": "hill-6",
+            "index": [10, 9]
+        },
+        {
+            "name": "castle-1",
+            "index": [11, 0]
+        },
+        {
+            "name": "castle-2",
+            "index": [12, 0]
+        },
+        {
+            "name": "castle-3",
+            "index": [13, 0]
+        },
+        {
+            "name": "castle-4",
+            "index": [14, 0]
+        },
+        {
+            "name": "castle-5",
+            "index": [11, 1]
+        },
+        {
+            "name": "castle-6",
+            "index": [12, 1]
+        },
+        {
+            "name": "castle-7",
+            "index": [13, 1]
+        },
+        {
+            "name": "coin-1",
+            "index": [24, 1]
+        },
+        {
+            "name": "coin-2",
+            "index": [25, 1]
+        },
+        {
+            "name": "coin-3",
+            "index": [26, 1]
+        }
+    ],
+    "animations": [
+        {
+            "name": "?-block",
+            "speed": 0.16,
+            "frames": [
+                "?-block-1",
+                "?-block-1",
+                "?-block-1",
+                "?-block-1",
+                "?-block-2",
+                "?-block-3",
+                "?-block-2",
+                "?-block-1"
+            ]
+        },
+        {
+            "name": "coin",
+            "speed": 0.16,
+            "frames": [
+                "coin-1",
+                "coin-1",
+                "coin-1",
+                "coin-1",
+                "coin-2",
+                "coin-3",
+                "coin-2",
+                "coin-1"
+            ]
+        }
+    ]
+}

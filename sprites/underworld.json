@@ -1,0 +1,23 @@
+{
+    "imageURL": "/img/tileset.png",
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "tiles": [
+        {
+            "name": "ground-block",
+            "index": [0, 2]
+        },
+        {
+            "name": "sky",
+            "index": [13, 3]
+        },
+        {
+            "name": "brick-block",
+            "index": [1, 2]
+        },
+        {
+            "name": "brick-block-alt",
+            "index": [2, 2]
+        }
+    ]
+}

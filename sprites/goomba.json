@@ -1,0 +1,27 @@
+{
+    "imageURL": "/img/enemies.png",
+    "frames": [
+        {
+            "name": "walk-1",
+            "rect": [0, 16, 16, 16]
+        },
+        {
+            "name": "walk-2",
+            "rect": [16, 16, 16, 16]
+        },
+        {
+            "name": "stomped",
+            "rect": [32, 16, 16, 16]
+        }
+    ],
+    "animations": [
+        {
+            "name": "walk",
+            "speed": 0.15,
+            "frames": [
+                "walk-1",
+                "walk-2"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "imageURL": "/img/enemies.png",
+    "frames": [
+        {
+            "name": "walk-1",
+            "rect": [96, 8, 16, 24]
+        },
+        {
+            "name": "walk-2",
+            "rect": [112, 8, 16, 24]
+        },
+        {
+            "name": "shell",
+            "rect": [160, 8, 16, 24]
+        },
+        {
+            "name": "shell-with-legs",
+            "rect": [176, 8, 16, 24]
+        }
+    ],
+    "animations": [
+        {
+            "name": "walk",
+            "speed": 0.15,
+            "frames": [
+                "walk-1",
+                "walk-2"
+            ]
+        },
+        {
+            "name": "wake",
+            "speed": 0.15,
+            "frames": [
+                "shell",
+                "shell-with-legs"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "sfx": {
+        "jump_small": {
+            "url": "/aud/sfx/jump_small.wav"
+        },
+        "stomp": {
+            "url": "/aud/sfx/stomp.wav"
+        },
+        "coin": {
+            "url": "/aud/sfx/coin.wav"
+        }
+    }
+}

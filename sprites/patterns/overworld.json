@@ -1,0 +1,433 @@
+{
+    "pipe-cap-vert": {
+        "tiles": [
+            {
+                "name": "pipe-insert-vert-left",
+                "type": "solid",
+                "ranges": [
+                    [0, 0]
+                ]
+            },
+            {
+                "name": "pipe-insert-vert-right",
+                "type": "solid",
+                "ranges": [
+                    [1, 0]
+                ]
+            }
+        ]
+    },
+    "pipe-section-vert": {
+        "tiles": [
+            {
+                "name": "pipe-vert-left",
+                "type": "solid",
+                "ranges": [
+                    [0, 0]
+                ]
+            },
+            {
+                "name": "pipe-vert-right",
+                "type": "solid",
+                "ranges": [
+                    [1, 0]
+                ]
+            }
+        ]
+    },
+    "pipe-2h": {
+        "tiles": [
+            {
+                "pattern": "pipe-cap-vert",
+                "ranges": [
+                    [0, 0]
+                ]
+            },
+            {
+                "pattern": "pipe-section-vert",
+                "ranges": [
+                    [0, 1]
+                ]
+            }
+        ]
+    },
+    "pipe-3h": {
+        "tiles": [
+            {
+                "pattern": "pipe-cap-vert",
+                "ranges": [
+                    [0, 0]
+                ]
+            },
+            {
+                "pattern": "pipe-section-vert",
+                "ranges": [
+                    [0, 1],
+                    [0, 2]
+                ]
+            }
+        ]
+    },
+    "pipe-4h": {
+        "tiles": [
+            {
+                "pattern": "pipe-cap-vert",
+                "ranges": [
+                    [0, 0]
+                ]
+            },
+            {
+                "pattern": "pipe-section-vert",
+                "ranges": [
+                    [0, 1],
+                    [0, 2],
+                    [0, 3]
+                ]
+            }
+        ]
+    },
+    "cannon-2h": {
+        "tiles": [
+            {
+                "name": "cannon-1",
+                "type": "solid",
+                "ranges": [
+                    [0, 0]
+                ]
+            },
+            {
+                "name": "cannon-3",
+                "type": "solid",
+                "ranges": [
+                    [0, 1]
+                ]
+            }
+        ]
+    },
+    "cloud-single": {
+        "tiles": [
+            {
+                "name": "cloud-1",
+                "ranges": [
+                    [0, 0]
+                ]
+            },
+            {
+                "name": "cloud-4",
+                "ranges": [
+                    [0, 1]
+                ]
+            },
+            {
+                "name": "cloud-2",
+                "ranges": [
+                    [1, 0]
+                ]
+            },
+            {
+                "name": "cloud-5",
+                "ranges": [
+                    [1, 1]
+                ]
+            },
+            {
+                "name": "cloud-3",
+                "ranges": [
+                    [2, 0]
+                ]
+            },
+            {
+                "name": "cloud-6",
+                "ranges": [
+                    [2, 1]
+                ]
+            }
+        ]
+    },
+    "cloud-double": {
+        "tiles": [
+            {
+                "name": "cloud-1",
+                "ranges": [
+                    [0, 0]
+                ]
+            },
+            {
+                "name": "cloud-4",
+                "ranges": [
+                    [0, 1]
+                ]
+            },
+            {
+                "name": "cloud-2",
+                "ranges": [
+                    [1, 0],
+                    [2, 0]
+                ]
+            },
+            {
+                "name": "cloud-5",
+                "ranges": [
+                    [1, 1],
+                    [2, 1]
+                ]
+            },
+            {
+                "name": "cloud-3",
+                "ranges": [
+                    [3, 0]
+                ]
+            },
+            {
+                "name": "cloud-6",
+                "ranges": [
+                    [3, 1]
+                ]
+            }
+        ]
+    },
+    "cloud-triple": {
+        "tiles": [
+            {
+                "name": "cloud-1",
+                "ranges": [
+                    [0, 0]
+                ]
+            },
+            {
+                "name": "cloud-4",
+                "ranges": [
+                    [0, 1]
+                ]
+            },
+            {
+                "name": "cloud-2",
+                "ranges": [
+                    [1, 0],
+                    [2, 0],
+                    [3, 0]
+                ]
+            },
+            {
+                "name": "cloud-5",
+                "ranges": [
+                    [1, 1],
+                    [2, 1],
+                    [3, 1]
+                ]
+            },
+            {
+                "name": "cloud-3",
+                "ranges": [
+                    [4, 0]
+                ]
+            },
+            {
+                "name": "cloud-6",
+                "ranges": [
+                    [4, 1]
+                ]
+            }
+        ]
+    },
+    "bush-single": {
+        "tiles": [
+            {
+                "name": "bush-1",
+                "ranges" : [
+                    [0, 0]
+                ]
+            },
+            {
+                "name": "bush-2",
+                "ranges" : [
+                    [1, 0]
+                ]
+            },
+            {
+                "name": "bush-3",
+                "ranges" : [
+                    [2, 0]
+                ]
+            }
+        ]
+    },
+    "bush-double": {
+        "tiles": [
+            {
+                "name": "bush-1",
+                "ranges" : [
+                    [0, 0]
+                ]
+            },
+            {
+                "name": "bush-2",
+                "ranges" : [
+                    [1, 0],
+                    [2, 0]
+                ]
+            },
+            {
+                "name": "bush-3",
+                "ranges" : [
+                    [3, 0]
+                ]
+            }
+        ]
+    },
+    "bush-triple": {
+        "tiles": [
+            {
+                "name": "bush-1",
+                "ranges" : [
+                    [0, 0]
+                ]
+            },
+            {
+                "name": "bush-2",
+                "ranges" : [
+                    [1, 0],
+                    [2, 0],
+                    [3, 0]
+                ]
+            },
+            {
+                "name": "bush-3",
+                "ranges" : [
+                    [4, 0]
+                ]
+            }
+        ]
+    },
+    "small-hill": {
+        "tiles": [
+            {
+                "name": "hill-1",
+                "ranges": [
+                    [0, 1]
+                ]
+            },
+            {
+                "name": "hill-2",
+                "ranges": [
+                    [1, 0]
+                ]
+            },
+            {
+                "name": "hill-4",
+                "ranges": [
+                    [1, 1]
+                ]
+            },
+            {
+                "name": "hill-3",
+                "ranges": [
+                    [2, 1]
+                ]
+            }
+        ]
+    },
+    "big-hill": {
+        "tiles": [
+            {
+                "name": "hill-1",
+                "ranges": [
+                    [0, 2],
+                    [1, 1]
+                ]
+            },
+            {
+                "name": "hill-4",
+                "ranges": [
+                    [1, 2],
+                    [2, 1]
+                ]
+            },
+            {
+                "name": "hill-2",
+                "ranges": [
+                    [2, 0]
+                ]
+            },
+            {
+                "name": "hill-5",
+                "ranges": [
+                    [2, 2]
+                ]
+            },
+            {
+                "name": "hill-3",
+                "ranges": [
+                    [3, 1],
+                    [4, 2]
+                ]
+            },
+            {
+                "name": "hill-6",
+                "ranges": [
+                    [3, 2]
+                ]
+            }
+        ]
+    },
+    "castle": {
+        "tiles": [
+            {
+                "name": "castle-1",
+                "ranges": [
+                    [0, 2],
+                    [1, 0],
+                    [2, 0],
+                    [3, 0],
+                    [4, 2]
+                ]
+            },
+            {
+                "name": "castle-3",
+                "ranges": [
+                    [0, 3],
+                    [0, 4],
+                    [1, 3],
+                    [1, 4],
+                    [2, 1],
+                    [3, 3],
+                    [3, 4],
+                    [4, 3],
+                    [4, 4]
+                ]
+            },
+            {
+                "name": "castle-2",
+                "ranges": [
+                    [1, 1]
+                ]
+            },
+            {
+                "name": "castle-5",
+                "ranges": [
+                    [1, 2],
+                    [2, 2],
+                    [3, 2]
+                ]
+            },
+            {
+                "name": "castle-6",
+                "ranges": [
+                    [2, 3]
+                ]
+            },
+            {
+                "name": "castle-7",
+                "ranges": [
+                    [2, 4]
+                ]
+            },
+            {
+                "name": "castle-4",
+                "ranges": [
+                    [3, 1]
+                ]
+            }
+        ]
+    }
+}

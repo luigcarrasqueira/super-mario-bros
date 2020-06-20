@@ -1,0 +1,9 @@
+{
+    "imageURL": "/img/enemies.png",
+    "frames": [
+        {
+            "name": "bullet",
+            "rect": [560, 16, 16, 16]
+        }
+    ]
+}
