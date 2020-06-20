@@ -1,8 +1,8 @@
 {
     "main": {
-        "url": "/aud/bgm/overworld.ogg"
+        "url": "./aud/bgm/overworld.ogg"
     },
     "hurry": {
-        "url": "/aud/bgm/hurryup.wav"
+        "url": "./aud/bgm/hurryup.wav"
     }
 }
