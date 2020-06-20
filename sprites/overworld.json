@@ -1,5 +1,5 @@
 {
-    "imageURL": "/img/tileset.png",
+    "imageURL": "./img/tileset.png",
     "tileWidth": 16,
     "tileHeight": 16,
     "tiles": [
