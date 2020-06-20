@@ -3,7 +3,7 @@ import {loadJSON} from "./loadJSON.js";
 
 export function loadAudioBoard(name, audioContext) {
     const loadAudio = createAudioLoader(audioContext);
-    return loadJSON("/sounds/" + name + ".json").then(function(audioSheet) {
+    return loadJSON("./sounds/" + name + ".json").then(function(audioSheet) {
         const audio = new AudioBoard(audioContext);
         const {sfx} = audioSheet;
         const processes = [];
