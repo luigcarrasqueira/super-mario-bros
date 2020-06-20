@@ -1,5 +1,5 @@
 {
-    "imageURL": "/img/enemies.png",
+    "imageURL": "./img/enemies.png",
     "frames": [
         {
             "name": "bullet",
