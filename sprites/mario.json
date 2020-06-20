@@ -1,5 +1,5 @@
 {
-    "imageURL": "/img/mario.png",
+    "imageURL": "./img/mario.png",
     "frames": [
         {
             "name": "idle",
