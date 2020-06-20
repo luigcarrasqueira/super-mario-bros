@@ -4,7 +4,7 @@ import {loadImage} from "./loadImage.js";
 import {loadJSON} from "./loadJSON.js";
 
 export function loadSpriteSheet(name) {
-    return loadJSON("/sprites/" + name + ".json").then(function(sheetSpec) {
+    return loadJSON("./sprites/" + name + ".json").then(function(sheetSpec) {
         return Promise.all([
             sheetSpec,
             loadImage(sheetSpec.imageURL)
