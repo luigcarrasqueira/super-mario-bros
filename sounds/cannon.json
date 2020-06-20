@@ -1,7 +1,7 @@
 {
     "sfx": {
         "shoot": {
-            "url": "/aud/sfx/explosion.wav"
+            "url": "./aud/sfx/explosion.wav"
         }
     }
 }
