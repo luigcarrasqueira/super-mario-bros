@@ -143,7 +143,7 @@ function setupBehavior(world) {
 
 export function createWorldLoader(entityFactory) {
     return function(name) {
-        return loadJSON("/worlds/" + name + ".json").then(function(worldSpec) {
+        return loadJSON("./worlds/" + name + ".json").then(function(worldSpec) {
             return Promise.all([
                 worldSpec,
                 loadSpriteSheet(worldSpec.spriteSheet),
