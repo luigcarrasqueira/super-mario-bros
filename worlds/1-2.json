@@ -1,0 +1,45 @@
+{
+    "spriteSheet": "underworld",
+    "musicSheet": "underworld",
+    "patternSheet": "underworld",
+    "layers": [
+        {
+            "tiles": [
+                {
+                    "name": "sky",
+                    "ranges": [
+                        [0, 213, 0, 14]
+                    ]
+                },
+                {
+                    "name": "ground-block",
+                    "type": "solid",
+                    "ranges": [
+                        [0, 213, 13, 2]
+                    ]
+                }
+            ]
+        },
+        {
+            "tiles": [
+                {
+                    "name": "brick-block-alt",
+                    "type": "breakable",
+                    "ranges": [
+                        [0, 1, 2, 11],
+                        [6, 100, 2]
+                    ]
+                }
+            ]
+        }
+    ],
+    "entities": [],
+    "triggers": [
+        {
+            "type": "goto",
+            "name": "1-1",
+            "position": [64, 64]
+        }
+    ]
+    
+}

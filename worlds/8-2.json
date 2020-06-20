@@ -1,0 +1,40 @@
+{
+    "spriteSheet": "overworld",
+    "musicSheet": "overworld",
+    "patternSheet": "overworld",
+    "layers": [
+        {
+            "tiles": [
+                {
+                    "name": "sky",
+                    "ranges": [
+                        [0, 213, 0, 14]
+                    ]
+                },
+                {
+                    "name": "ground-block",
+                    "type": "solid",
+                    "ranges": [
+                        [0, 213, 13, 2]
+                    ]
+                }
+            ]
+        },
+        {
+            "tiles": [
+                {
+                    "pattern": "cannon-2h",
+                    "ranges": [
+                        [9, 11]
+                    ]
+                }
+            ]
+        }
+    ],
+    "entities": [
+        {
+            "name": "cannon",
+            "position": [152, 176]
+        }
+    ]
+}
